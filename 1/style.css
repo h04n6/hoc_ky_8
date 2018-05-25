@@ -15,15 +15,18 @@ body{
 #header{
 	width: 450px;
 	height: 38px;
-	background-image: url("header_background.png");
+	background-image: url("image/header_background.png");
 	color: white;
 	vertical-align: middle;
 	line-height: 38px;
 }
+#header b{
+	margin-left: 10px;
+}
 #footer{
 	width: 450px;
 	height: 68px;
-	background-image: url("footer_background.png");
+	background-image: url("image/footer_background.png");
 }
 #main-content{
 	width: 450px;

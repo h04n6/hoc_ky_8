@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +7,18 @@
 	<title></title>
 </head>
 <body>
+	<?php 
+	if(isset($_SESSION['thong_bao'])){
+		if($_SESSION['thong_bao'] == "blocked"){
+			echo "Tài khoản của bạn đã bị khóa";
+		}else if($_SESSION['thong_bao'] == "ok"){
+			echo "Đăng nhập thành công";
+		}else{
+			echo "Sai tên đăng nhập hoặc mật khẩu";
+		}
+		unset($_SESSION['thong_bao']);
+	}
+	?>
 	<form id="form-login" method="post" action="xldangnhap.php">
 		<div id="header">
 			<b>Form Login Account</b>
