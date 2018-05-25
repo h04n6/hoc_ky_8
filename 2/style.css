@@ -1,0 +1,45 @@
+*{
+	font-size: 13px;
+	font-family: Tahoma;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#form-send{
+	width: 450px;
+	height: 469px;
+	border: solid 2px dodgerblue;
+}
+#header{
+	width: 450px;
+	height: 38px;
+	background-image: url("image/header_background.png");
+}
+#header b{
+	vertical-align: middle;
+	line-height: 38px;
+	margin-right: 10px;
+}
+#footer{
+	width: 450px;
+	height: 68px;
+	background-image: url("image/footer_background.png");
+}
+#main-content{
+	width: 450px;
+	height: 359px;
+}
+.form-group label:first-child{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.form-group{
+	margin: 5px 0px;
+	padding: 3px 0px;
+}
+.form-control{
+	width: 70%;
+	padding: 3px;
+}
