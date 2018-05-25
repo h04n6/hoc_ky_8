@@ -1,0 +1,53 @@
+*{
+    font-size: 13px;
+    font-family: Tahoma;
+}
+.khungngoaicung{
+    width: 450px;
+    height: 469px;
+    border: #2034a6 1px solid;
+}
+.header{
+    width: 450px;
+    height: 38px;
+    background-image: url("img/header_background.png");
+}
+.tieude{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.body{
+    width: 450px;
+    height: 363px;
+}
+.footer{
+    width: 450px;
+    height: 68px;
+    background-image: url("img/footer_background.png");
+}
+.input{
+    width: 420px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+label{
+    margin-right: 50px;
+}
+.inputtext{
+    width: 250px;
+    float: right;
+    margin-right: 50px;
+}
+.send{
+    background: #ffc339;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+}

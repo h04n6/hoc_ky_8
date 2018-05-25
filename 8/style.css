@@ -1,0 +1,41 @@
+*{
+	font-size: 13pt;
+	font-family: Tahoma;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#khung-ngoai{
+	width: 908px;
+	height: 314px;
+	border: solid lightblue 1px;
+}
+#tieu-de{
+	width: 908px;
+	height: 45px;
+	border-bottom: solid yellow 2px;
+	background-color: #4c8e2a;
+	vertical-align: middle;
+	line-height: 45px;
+}
+#san-pham ul{
+	width: 100%;
+	list-style: none;
+	margin: 5px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#san-pham ul li{
+	width: 170px;
+	height: 245px;
+	float: left;
+	margin-left: 3px;
+}
+#san-pham p{
+	margin: 1px;
+}
+.anh-sp{
+	width: 160px;
+	height: 180px;
+}

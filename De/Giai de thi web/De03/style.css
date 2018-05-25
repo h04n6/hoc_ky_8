@@ -1,0 +1,54 @@
+
+
+.product{
+    width: 770px;
+    height: 425px;
+}
+.title{
+    background: url("img/header_background.png");
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 40px;
+}
+.sanpham{
+    width: 770px;
+    height: 385px;
+}
+.osanpham{
+    margin-top: 3px;
+    float: left;
+    width: 255px;
+    height: 190px;
+}
+.anhsp{
+    float: left;
+    width: 115px;
+    height: 150px;
+}
+.thongtinsp{
+    float: left;
+    width: 140px;
+    height: 150px;
+}
+.thongtinsp p{
+    margin-left: 4px;
+}
+.nutbam{
+    display: block;
+    width: 255px;
+    height: 40px;
+    margin-top: 4px;
+    text-align: center;
+}
+.btn{
+    margin-top: 4px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+#nutgia{
+    background: #48adc9;
+}
+#nutchitiet{
+    background: #2d2d2d;
+}
