@@ -23,11 +23,9 @@ body{
 	color: white;
 	margin-left: 15px;
 }
-#san-pham{
+#san-pham ul{
 	width: 770px;
 	height: 385px;
-}
-#san-pham ul{
 	margin: 10px;
 	padding: 0;
 	list-style: none;
@@ -39,19 +37,40 @@ body{
 	float: left;
 	margin-left: 0px;
 }
+.dong{
+	width: 255px;
+	height: 150px;
+	overflow: hidden;
+}
 .anh-sp{
+	float: left;
 	width: 115px;
 	height: 150px;
-	float: left;
 }
 .thong-tin-sp{
-	width: 140px;
-	height: auto;
-	padding: 0px 5px;
 	float: left;
+	width: 50%;
+	height: 150px;
+	margin-left: 10px;
+	padding: 3px 0px;
 }
-.button{
+.thong-tin-sp p{
+	margin: 5px 0px;
+}
+.nut{
 	width: 255px;
 	height: 40px;
-	display: block;
+	text-align: center;
+	padding-top: 5px;
+}
+.button{
+	border-radius: 10px;
+	text-align: center;
+	padding: 2px 15px;
+}
+#btn-gia{
+	background-color: #48adc9;
+}
+#btn-chi-tiet{
+	background-color: #2d2d2d;
 }
