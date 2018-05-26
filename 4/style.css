@@ -27,16 +27,22 @@ body{
 }
 #main-content{
 	width: 345px;
-	height: 240px;
+	height: auto;
 }
 .form-group label:first-child{
-	width: 40%;
+	width: 35%;
 	display: inline-block;
+	text-align: right;
 }
 .form-group{
-	width: 85%;
-	margin: 5px 0px;
+	width: 95%;
+	margin: 12px 0px;
 }
 .form-control{
-	width: 55%;
+	width: 60%;
+}
+#btn-create{
+	background-color: #5dce4b;
+	border-radius: 8px;
+	padding: 3px 8px;
 }
