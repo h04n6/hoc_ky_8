@@ -1,0 +1,57 @@
+*{
+	font-size: 13px;
+	font-family: Times New Roman;
+}
+body{
+	margin: 30px 50px;
+	padding: 0;
+}
+#khung-ngoai{
+	width: 770px;
+	height: 425px;
+	border: solid 2px dodgerblue;
+}
+#tieu-de{
+	width: 770px;
+	height: 40px;
+	background-image: url('image/header_background.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	line-height: 40px;
+}
+#tieu-de b{
+	color: white;
+	margin-left: 15px;
+}
+#san-pham{
+	width: 770px;
+	height: 385px;
+}
+#san-pham ul{
+	margin: 10px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+#san-pham ul li{
+	width: 255px;
+	height: 190px;
+	float: left;
+	margin-left: 0px;
+}
+.anh-sp{
+	width: 115px;
+	height: 150px;
+	float: left;
+}
+.thong-tin-sp{
+	width: 140px;
+	height: auto;
+	padding: 0px 5px;
+	float: left;
+}
+.button{
+	width: 255px;
+	height: 40px;
+	display: block;
+}

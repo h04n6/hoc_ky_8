@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +7,12 @@
 	<title></title>
 </head>
 <body>
+	<?php
+	if(isset($_SESSION['thong_bao'])){
+		echo $_SESSION['thong_bao'];
+		unset($_SESSION['thong_bao']);
+	}
+	?>
 	<form id="form-send" method="post" action="xlgui.php">
 		<div id="header">
 			<b>Messenger Form</b>

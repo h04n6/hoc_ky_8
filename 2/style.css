@@ -19,7 +19,7 @@ body{
 #header b{
 	vertical-align: middle;
 	line-height: 38px;
-	margin-right: 10px;
+	margin-left: 10px;
 	color: white;
 }
 #footer{
@@ -48,7 +48,7 @@ body{
 }
 .action{
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 	vertical-align: middle;
 	line-height: 68px;
 }
