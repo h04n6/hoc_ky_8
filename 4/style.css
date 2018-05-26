@@ -1,0 +1,42 @@
+*{
+	font-size: 13px;
+	font-family: Tahoma;
+}
+body{
+	margin: 30px 50px;
+	padding: 0;
+}
+#form-create-account{
+	width: 345px;
+	height: 275px;
+	background-color: #f0f0f0;
+	border: 2px solid dodgerblue;
+}
+#tieu-de{
+	width: 345px;
+	height: 35px;
+}
+#tieu-de p{
+	margin: 8px 20px;
+	padding-bottom: 5px;
+}
+.line{
+	width: 85%;
+	border-bottom: 1px solid dodgerblue;
+	margin: 10px 20px;
+}
+#main-content{
+	width: 345px;
+	height: 240px;
+}
+.form-group label:first-child{
+	width: 40%;
+	display: inline-block;
+}
+.form-group{
+	width: 85%;
+	margin: 5px 0px;
+}
+.form-control{
+	width: 55%;
+}
