@@ -1,0 +1,65 @@
+*{
+	font-size: 13px;
+	font-family: Tahoma;
+}
+body{
+	margin: 30px 50px;
+	padding: 0;
+}
+#khung-ngoai{
+	width: 750px;
+	height: 668px;
+	border: 2px #f7a11a solid;
+	border-radius: 15px;
+}
+#tieu-de{
+	width: 750px;
+	height: 60px;
+	background-color: #f7a11a;
+	border-radius: 10px;
+	vertical-align: middle;
+	line-height: 60px;
+	color: white;
+}
+#tieu-de b{
+	margin-left: 15px;
+}
+#san-pham{
+	width: 750px;
+	height: auto;
+	padding: 0;
+}
+#san-pham ul{
+	width: 100%;
+	display: inline-block;
+	overflow: none;
+	list-style: none;
+	padding: 0;
+	margin: 10px 10px;
+	text-align: center;
+}
+#san-pham ul li{
+	width: 230px;
+	height: 280px;
+	float: left;
+	border: 1px #f7a11a solid;
+	border-radius: 10px;
+	margin: 6px 6px;
+}
+#san-pham ul li p{
+	margin: 10px 0;
+	padding: 0;
+}
+.new-sp{
+	width: 30%;
+	height: 15%;
+	float: right;
+	margin-right: 20px;
+}
+.anh-sp{
+	width: 80%;
+	height: 50%;
+}
+.mua-hang{
+	color: #f7a11a;
+}

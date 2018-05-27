@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +7,12 @@
 	<title></title>
 </head>
 <body>
+	<?php
+	if(isset($_SESSION['thong_bao'])){
+		echo $_SESSION['thong_bao'];
+		unset($_SESSION['thong_bao']);
+	}
+	?>
 	<form id="form-create-account" method="post" action="xlthem.php">
 		<div id="tieu-de">
 			<p class="line"><b>Create your account</b></p>
@@ -41,7 +48,7 @@
 	<script type="text/javascript">
 		document.getElementById('btn-create').addEventListener('click', function(e){
 			$email = document.getElementById('email-');
-			$filter = /^([a-zA-Z0-9_\.\-]) + \@([a-zA-Z0-9\-] + \.) + ([a-zA-Z0-9]{2,4}) + $/;
+			$filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 			if(!$filter.test($email.value)){
 				alert("You enter an incorrect email address.\nExample@gmail.com");
 				$email.focus();
