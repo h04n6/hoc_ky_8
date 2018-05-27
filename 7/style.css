@@ -1,0 +1,56 @@
+*{
+	font-size: 14px;
+	font-family: Tahoma;
+}
+body{
+	margin: 30px 50px;
+	padding: 0;
+}
+#form-dang-nhap{
+	width: 400px;
+	height: 220px;
+	border: 2px solid #c0504e;
+}
+#tieu-de{
+	width: 400px;
+	height: 40px;
+	background-color: #c0504e;
+	vertical-align: middle;
+	line-height: 40px;
+}
+#anh-tieu-de{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+#tieu-de b{
+	color: white;
+	margin-left: 65px;
+}
+#noi-dung{
+	width: 400px;
+	height: 130px;
+	margin-top: 40px;
+}
+.form-group label:first-child{
+	width: 25%;
+	display: inline-block;
+	text-align: left;
+	margin-left: 30px;
+}
+.form-group{
+	width: 90%;
+	margin: 15px 10px;
+	padding: 0;
+}
+.form-control{
+	width: 60%;
+	margin: 0 0;
+	padding: 3px 3px;
+}
+.button{
+	border-radius: 8px;
+	width: 110px;
+	height: auto;
+	background-color: #d2d2d2;
+}
