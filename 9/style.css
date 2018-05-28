@@ -1,0 +1,71 @@
+*{
+	font-size: 13px;
+	font-family: Tahoma;
+}
+body{
+	margin: 30px 50px;
+	padding: 0px;
+}
+label, p{
+	color: #3E4D58;
+}
+#form-create{
+	width: 540px;
+	height: 540px;
+	border: 2px solid #3E4D58;
+}
+#tieu-de{
+	width: 540px;
+	height: 120px;
+	vertical-align: middle;
+	line-height: 120px;
+}
+#tieu-de p{
+	font-size: 28px;
+	margin: 0px 10px;
+	padding: 0;
+}
+#noi-dung{
+	width: 540px;
+	height: 320px;
+}
+#detail{
+	font-size: 16px;
+	margin: 0px 20px;
+	padding: 0;
+}
+#password{
+	font-size: 16px;
+	margin-top: 45px;
+	margin-left: 20px;
+	padding: 0;
+}
+.form-group label:first-child{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	margin-right: 5px;
+}
+.form-group{
+	width: 85%;
+	margin: 20px 5px;
+	padding: 0;
+}
+.form-control{
+	width: 65%;
+	padding: 3px 0px;
+	border: solid 2px #e5e5e5;
+}
+#action{
+	width: 540px;
+	height: 100px;
+	padding-top: 10px;
+}
+#btn-create{
+	background-color: #cc3304;
+	color: white;
+}
+.button{
+	border-radius: 5px;
+	padding: 3px 15px;
+}
