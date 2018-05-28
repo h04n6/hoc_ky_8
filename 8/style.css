@@ -1,39 +1,53 @@
 *{
-	font-size: 13pt;
+	font-size: 13px;
 	font-family: Tahoma;
 }
 body{
-	margin: 0;
+	margin: 30px 50px;
 	padding: 0;
 }
 #khung-ngoai{
 	width: 908px;
 	height: 314px;
-	border: solid lightblue 1px;
+	border: 2px solid #4c8e2a;
 }
 #tieu-de{
 	width: 908px;
 	height: 45px;
-	border-bottom: solid yellow 2px;
-	background-color: #4c8e2a;
+	border-bottom: 1px solid #4c8e2a;
+	text-align: center;
 	vertical-align: middle;
 	line-height: 45px;
 }
+#tieu-de p{
+	width: 20%;
+	height: 45px;
+	float: left;
+	margin: 0;
+	background-color: #4c8e2a;
+	color: white;
+}
+#san-pham{
+	width: 908px;
+	height: 269px;
+}
 #san-pham ul{
 	width: 100%;
+	display: inline-block;
 	list-style: none;
-	margin: 5px 0px;
-	text-align: center;
-	vertical-align: middle;
+	margin: 10px 5px;
+	padding: 0;
 }
 #san-pham ul li{
 	width: 170px;
 	height: 245px;
 	float: left;
-	margin-left: 3px;
+	margin-left: 6px;
+	text-align: center;
 }
 #san-pham p{
-	margin: 1px;
+	margin: 0;
+	padding: 3px 0px;
 }
 .anh-sp{
 	width: 160px;

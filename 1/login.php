@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +6,9 @@
 	<title></title>
 </head>
 <body>
-	<?php 
+	<?php
+	session_start();
+
 	if(isset($_SESSION['thong_bao'])){
 		if($_SESSION['thong_bao'] == "blocked"){
 			echo "Tài khoản của bạn đã bị khóa";
