@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form id="form-create" method="post" action="xlthem.php">
+		<div id="tieu-de">
+			<p><b>STEP 2: ACCOUNT AND BILLING DETAIL</b></p>
+		</div>
+		<div id="noi-dung">
+			<div id="left">
+				<div id="personal-detail">
+					<p class="chu-to"><b>YOUR PERSONAL DETAILS</b></p>
+					<div class="form-group">
+						<label for="fn-">First Name *</label>
+						<input id="fn-" name="fn_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="ln-">Last Name *</label>
+						<input id="ln-" name="ln_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="email-">Email *</label>
+						<input type="email" id="email-" name="email_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="phone-">Telephone *</label>
+						<input id="phone-" name="phone_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="fax-">Fax *</label>
+						<input id="fax-" name="fax_" class="form-control">
+					</div>
+				</div>
+				<div id="password">
+					<p class="chu-to"><b>YOUR PASSWORD</b></p>
+					<div class="form-group">
+						<label for="pw-">Password *</label>
+						<input type="password" id="pw-" name="pw_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="pw2-">Password Confirm *</label>
+						<input type="password" id="pw2-" name="pw2_" class="form-control">
+					</div>
+				</div>
+				<div id="privacy">
+					<input type="checkbox" id="check1" name="check_"><label for="check1">I wish to subcribe to the OXY newsletter.</label><br>
+					<input type="checkbox" id="check2" name="check_"><label for="check2">My delivery and billing addresses are the same.</label>
+				</div>
+			</div>
+			<div id="right">
+				<div id="address">
+					<p class="chu-to"><b>YOUR ADDRESS</b></p>
+					<div class="form-group">
+						<label for="company-">Company</label>
+						<input id="company-" name="company_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="ad-">Address *</label>
+						<input id="ad-" name="ad_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="ad2-">Address 2</label>
+						<input id="ad2-" name="ad2_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="city-">City *</label>
+						<input id="city-" name="city_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="pc-">Post Code *</label>
+						<input id="pc-" name="pc_" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="country-">Country *</label>
+						<select id="country-" name="country_" class="form-control">
+							<option>- Please Select -</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="state-">Region/State *</label>
+						<select id="state-" name="state_" class="form-control">
+							<option>- Please Select -</option>
+						</select>
+					</div>
+				</div>
+				<div id="action">
+					<input type="checkbox" id="agree-" name="agree_"><label for="agree-">I have read and agree to the privacy.</label>
+					<button id="btn-continue" class="button">CONTINUE</button>
+				</div>
+			</div>
+			
+		</div>
+	</form>
+</body>
+</html>
