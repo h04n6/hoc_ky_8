@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<form id="form-create" method="post" action="xlthem.php">
+	<form id="form-create" method="post" action="xlthem.php" onsubmit="return checkEmpty()">
 		<div id="tieu-de">
 			<p><b>STEP 2: ACCOUNT AND BILLING DETAIL</b></p>
 		</div>
@@ -77,23 +77,52 @@
 					<div class="form-group">
 						<label for="country-">Country *</label>
 						<select id="country-" name="country_" class="form-control">
-							<option>- Please Select -</option>
+							<option selected>- Please Select -</option>
+							<option>Việt Nam</option>
+							<option>Trung Quốc</option>
+							<option>Thái Lan</option>
 						</select>
 					</div>
 					<div class="form-group">
 						<label for="state-">Region/State *</label>
 						<select id="state-" name="state_" class="form-control">
-							<option>- Please Select -</option>
+							<option selected>- Please Select -</option>
+							<option>Hải Phòng</option>
+							<option>Hà Nội</option>
+							<option>Quảng Đông</option>
 						</select>
 					</div>
 				</div>
 				<div id="action">
 					<input type="checkbox" id="agree-" name="agree_"><label for="agree-">I have read and agree to the privacy.</label>
-					<button id="btn-continue" class="button">CONTINUE</button>
+					<button id="btn-continue" class="button" type="submit">CONTINUE</button>
 				</div>
-			</div>
-			
+			</div>			
 		</div>
 	</form>
+
+	<script>
+		function checkEmpty(){
+			var t = document.getElementsByTagName('input');
+			for(var i = 0; i < t.length; i++){
+				if(t[i].value == '' && t[i].id != 'company-' && t[i].id != 'ad2-'){
+					alert('Vui lòng điền đầy đủ các ô có chứa dấu *');
+					return false;
+				}
+			}
+			if(t[5].value !== t[6].value){
+				alert('Mật khẩu nhập lại chưa trùng khớp');
+				t[6].focus();
+				return false;
+			}
+			var p = document.getElementById('agree-');
+			if(!p.checked){
+				alert('Vui lòng chấp nhận các điều khoản đã đưa ra');
+				p.focus();
+				return false;
+			}
+		}
+	</script>
+
 </body>
 </html>

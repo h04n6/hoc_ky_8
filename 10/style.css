@@ -8,7 +8,7 @@ body{
 }
 #form-create{
 	width: 960px;
-	height: auto;
+	height: 670px;
 	border: 2px solid #a7b0b8;
 }
 #tieu-de{
@@ -31,25 +31,20 @@ body{
 #right{
 	width: 48%;
 	float: right;
-	padding-left: 10px;
+	padding-right: 10px;
+}
+#action{
+	margin: 100px 50px;
+	float: right;
+}
+#btn-continue{
+	background-color: #cc3304;
+	color: white;
+	border-radius: 10px;
+	padding: 3px 15px;
 }
 .chu-to{
 	font-size: 16px;
-}
-#personal-detail{
-	width: 100%;
-}
-#password{
-	width: 100%;
-}
-#privacy{
-	width: 100%;
-}
-#address{
-	width: 100%;
-}
-#action{
-	width: 100%;
 }
 .form-group label:first-child{
 	width: 30%;
@@ -58,7 +53,7 @@ body{
 	margin-left: 5px;
 }
 .form-group{
-	width: 90%;
+	width: 95%;
 	margin: 10px 0px;
 }
 .form-control{
